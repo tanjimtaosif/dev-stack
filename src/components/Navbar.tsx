@@ -45,7 +45,7 @@ const Navbar = ({ activeLink = "Home" }: NavbarProps) => {
                   href={`#${link.toLowerCase()}`}
                   className={`text-sm font-medium transition-colors duration-200 ${
                     activeLink === link
-                      ? "bg-gradient-to-r from-orange-500 via-pink-500 to-violet-500 bg-clip-text text-transparent"
+                      ? "bg-linear-to-r from-orange-500 via-pink-500 to-violet-500 bg-clip-text text-transparent"
                       : "text-gray-600 hover:text-gray-900"
                   }`}
                 >
@@ -65,7 +65,7 @@ const Navbar = ({ activeLink = "Home" }: NavbarProps) => {
             </a>
             <a
               href="#"
-              className="text-sm font-medium text-white px-5 py-2 rounded-full bg-gradient-to-r from-orange-500 via-pink-500 to-violet-500 hover:opacity-90 transition-opacity"
+              className="text-sm font-medium text-white px-5 py-2 rounded-full bg-linear-to-r from-orange-500 via-pink-500 to-violet-500 hover:opacity-90 transition-opacity"
             >
               Sign Up
             </a>
@@ -84,7 +84,7 @@ const Navbar = ({ activeLink = "Home" }: NavbarProps) => {
                 href={`#${link.toLowerCase()}`}
                 className={`block py-2 text-sm font-medium ${
                   activeLink === link
-                    ? "bg-gradient-to-r from-orange-500 via-pink-500 to-violet-500 bg-clip-text text-transparent"
+                    ? "bg-linear-to-r from-orange-500 via-pink-500 to-violet-500 bg-clip-text text-transparent"
                     : "text-gray-600"
                 }`}
                 onClick={() => setMenuOpen(false)}
