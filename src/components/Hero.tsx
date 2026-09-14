@@ -11,7 +11,7 @@ const Hero = () => {
             <h1 className="text-4xl md:text-5xl lg:text-[56px] font-bold leading-tight tracking-tight text-gray-900">
               Build Your Ideal
               <br />
-              <span className="bg-gradient-to-r from-orange-500 via-pink-500 to-violet-500 bg-clip-text text-transparent">
+              <span className="bg-linear-to-r from-orange-500 via-pink-500 to-violet-500 bg-clip-text text-transparent">
                 Development Stack
               </span>
             </h1>
@@ -23,7 +23,7 @@ const Hero = () => {
             <div className="mt-8 flex flex-wrap gap-4 justify-center md:justify-start">
               <a
                 href="#technologies"
-                className="inline-flex items-center px-6 py-3 text-sm font-semibold text-white rounded-lg bg-gradient-to-r from-orange-500 via-pink-500 to-violet-500 hover:opacity-90 transition-opacity shadow-md"
+                className="inline-flex items-center px-6 py-3 text-sm font-semibold text-white rounded-lg bg-linear-to-r from-orange-500 via-pink-500 to-violet-500 hover:opacity-90 transition-opacity shadow-md"
               >
                 Explore Technologies
               </a>
@@ -41,7 +41,7 @@ const Hero = () => {
             <img
               src={bannerImg}
               alt="Development Stack Illustration"
-              className="w-72 md:w-80 lg:w-[420px]"
+              className="w-72 md:w-80 lg:w-105"
             />
           </div>
         </div>
