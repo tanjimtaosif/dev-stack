@@ -73,7 +73,7 @@ const Technologies = () => {
         <div className="mb-10">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
             Explore the{" "}
-            <span className="bg-gradient-to-r from-orange-500 via-pink-500 to-violet-500 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-orange-500 via-pink-500 to-violet-500 bg-clip-text text-transparent">
               Technologies
             </span>
           </h2>
@@ -97,7 +97,7 @@ const Technologies = () => {
           </div>
 
           {/* <!-- Sidebar --> */}
-          <div className="w-full lg:w-72 xl:w-80 lg:flex-shrink-0">
+          <div className="w-full lg:w-72 xl:w-80 lg:shrink-0">
             <div className="lg:sticky lg:top-24">
               <YourStack
                 stack={stack}
