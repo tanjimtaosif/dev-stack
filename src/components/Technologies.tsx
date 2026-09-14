@@ -67,7 +67,7 @@ const Technologies = () => {
 
   return (
     /* <!-- Technologies Section Start --> */
-    <section id="technologies" className="py-12 md:py-16 lg:py-20 bg-gray-50/50">
+    <section id="technologies" className="py-12 md:py-16 lg:py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* <!-- Section Header --> */}
         <div className="mb-10">
